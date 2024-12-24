@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .flex-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    border: 2px solid;
+    flex-wrap: wrap;
+    align-content: start;
+  }
+  
+  .flex-child{
+    height: 100px;
+    background-color: #ffee00;
+    border: 1px solid;
+  }
+  
+  .child_1{
+    width: 200px;
+  }
+  
+  .child_2{
+    width: 400px;
+  }
+  
+  .child_3{
+    width: 200px;
+  }
+  
+  .child_4{
+    width: 400px;
+  }
+  
+  .child_5{
+    width: 400px;
+  }
+  
+  .child_6{
+    width: 400px;
+  }

@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .flex-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    border: 2px solid;
+    flex-wrap: wrap;
+    align-content: center;
+     align-items: stretch; /*here  align item doesn't work  */
+    margin: 10px;
+  }
+  /*align-items (e.g., flex-start, center, stretch) to the container. - Experiment with align-content (e.g., space-between, center) */
+  
+  .flex-child{
+    height: 100px;
+    background-color: rgb(255, 145, 0);
+    border: 1px solid;
+  }
+  
+  .child_1{
+    width: 200px;
+   
+  }
+  
+  .child_2{
+    width: 400px;
+  }
+  
+  .child_3{
+    width: 200px;
+  }
+  
+  .child_4{
+    width: 400px;
+  }
+  
+  .child_5{
+    width: 400px;
+    
+  }
+  

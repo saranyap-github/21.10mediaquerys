@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .flex-container{
+    width: 100vw;
+    display: flex;
+    border: 2px solid;
+  }
+  
+  .flex-child{
+    height: 100px;
+    width: 100px;
+    background-color: #1eff00;
+    border: 1px solid;
+  }
+  
+  .child_1{
+    flex-grow: 1;
+  }
+  
+  .child_2{
+    flex-grow: 2;
+  }
+  
+  .child_3{
+    flex-grow: 0;
+  }
